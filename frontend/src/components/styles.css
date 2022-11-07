@@ -1,0 +1,99 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  /* background-image: linear-gradient(180deg, #AED6F1, white); */
+  border-radius: 5px;
+}
+.singleChat{
+  background-image: linear-gradient(180deg, #AED6F1, white);
+}
+.chatOnlineFriend {
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  padding-left: 120px;
+}
+
+/* .chatOnlineImgContainer {
+  position: relative;
+  margin-right: 10px;
+} */
+
+.chatOnlineImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatIcon {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.chatText {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.chatOnlineBadge {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.emoji {
+  position: absolute;
+  justify-content: space-between;
+}
+.svgQuocDang {
+  margin-top: 10px;
+  font-size: 2.0rem;
+  color: gray;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+} 
+.send{
+  position: relative;
+  align-items: center;
+  margin-left: 50px;
+
+}
+
+.micro{
+  align-items: center;
+  margin-left: 10px;
+}
+
+.menu{
+  background-color: blue;
+    height:50px;
+    width: 50px;
+    position: absolute;
+    left:-200px;
+    bottom:0px;
+}
+/* .emojiHC{
+  position: relative;
+} */
+.EmojiPickerReact{
+  top: -500px;
+}
