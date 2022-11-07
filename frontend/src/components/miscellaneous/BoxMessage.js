@@ -159,7 +159,7 @@ const BoxMessage = ({ messages, m, i, socket }) => {
                     width="100%"
                     justifyContent={"space-between"}
                   >
-                    <Menu>
+                    {/* <Menu>
                       <MenuButton
                         as={IconButton}
                         fontSize="15px"
@@ -193,7 +193,7 @@ const BoxMessage = ({ messages, m, i, socket }) => {
                         </MenuItem>
                         <MenuDivider />
                       </MenuList>
-                    </Menu>
+                    </Menu> */}
                   <Box
                     style={{
                       margin: isSameSenderMargin(messages, m, i, user._id),
